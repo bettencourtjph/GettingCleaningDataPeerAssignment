@@ -154,5 +154,5 @@ names(averageDataSet)[3:ncol(averageDataSet)] <- sapply(names(dataSet)[3:ncol(av
 # 6. Save dataSets
 
 saveDataSet <- write.table(dataSet,"dataSet.txt")
-saveAverageDataSet <- write.table(averageDataSet,"averageDataSet.txt")
+saveAverageDataSet <- write.table(averageDataSet,"averageDataSet.txt", row.names = FALSE)
 
