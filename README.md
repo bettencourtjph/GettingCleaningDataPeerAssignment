@@ -116,9 +116,8 @@ for (j in 3:ncol(dataSet)) {
 ```
 Finally, it gives appropriate names to data columns.  
 
-### 6. Save data sets
+### 6. Save data set
 
 ```{r}
-saveDataSet <- write.table(dataSet,"dataSet.txt")
 saveAverageDataSet <- write.table(averageDataSet,"averageDataSet.txt", row.names = FALSE)
 ```
